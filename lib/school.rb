@@ -1,6 +1,11 @@
 class School
-  attr_accessor :roster
-  roster={}
+attr_accessor :grade :school
+def ::new
+roster={}
 end
-school=School.new("Bayside High School")
-school.roster
+
+def add_student
+end
+
+end
+school = School.new (Bayside High School)
